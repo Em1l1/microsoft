@@ -381,3 +381,53 @@ Si tienen Excel en inglés aquí están las formulas:
 =MID(B3,1,1) para extraer caracteres
 =TEXT(D3,“00”) para convertir a texto
 =CONCAT(C3,"-",E3,"-",G3) para concatenar (unir) celdas
+
+## Formula Aleatoria
+
+[fórmula🎥](https://youtu.be/2pKwNBdNNcQ)
+
+- ALEATORIO() Nos retorna un decimal aleatorio entre 0 y 1
+- ALEATORIO(a,b) Nos retorna un entero aleatorio entre a y b. OJO si lo arrastramos se imprimiran valores diferentes.
+
+> Tengo en Excel la lista de mis estudiantes en dos columnas, una con el número de lista y otra con el nombre.
+> En una celda use la fórmula ALEATORIO.ENTRE() y en otra usé el BUSCARV y tengo que cada vez que se indique el número aleatorio, en una celda me muestre a que estudiante corresponde. Muchas gracias.
+
+ALEATORIO CON PALABRAS:
+
+![ALEATORIO CON PALABRAS.JPG](https://static.platzi.com/media/user_upload/ALEATORIO%20CON%20PALABRAS-127a8d6d-3dc3-4dfa-9747-697cef047f2b.jpg)
+
+Puedes usar la función elegir para poder seleccionar opciones de palabras que quieres que salgan de manera aleatoria…en este caso el primer parámetro es la función aleatorio entre() donde según la cantidad de opciones colocas el rango…y luego colocas los valores de cada opción.
+
+![ALEATORIO CON PALABRAS EX.JPG](https://static.platzi.com/media/user_upload/ALEATORIO%20CON%20PALABRAS%20EX-1fa5e18b-82b8-4144-95b5-ba485efefd6a.jpg)
+
+Para contar el total de cada valor…se usa la opción de CONTAR SI para determinar la cantidad para cada una de las dos opciones:
+
+![contar.JPG](https://static.platzi.com/media/user_upload/contar-fdb10b06-883d-4f7e-88f3-ab7d1fa6f2c5.jpg)
+
+Y la función SI donde se coloca una condicional para saber el resultado.
+
+![si.JPG](https://static.platzi.com/media/user_upload/si-d0918a53-b6e8-4066-a1ec-ee37d8f42a54.jpg)
+
+## Formulas Logicas
+
+Se pueden usar para predecir el funcionamiento de un circuito lógico en las tablas de verdad.
+
+![73d408e8-aeb8-435b-ac4c-e53c04bd1b66.jpg](https://static.platzi.com/media/user_upload/73d408e8-aeb8-435b-ac4c-e53c04bd1b66-eca29abb-e4e3-4dc6-b9ff-47ba7480cf42.jpg)
+
+Las formulas pueden ser algo complejas, pero en realidad son sencillas si las desarrollamos con paciencia y logica.
+
+> =NO(SI(O(O(A17,B17),O(NO(B17),O(A17,B17))),XO(B17,NO(SI(C17,NO(D17))))))
+
+**Usé la fórmula IGUAL**
+
+![Captura.PNG](https://static.platzi.com/media/user_upload/Captura-a04b0b62-e08c-4b1b-8ad6-f59c49a71191.jpg)
+
+Las funciones lógicas en Excel son ampliamante utilizadas, podría decir que son una de las categorías mas importante, ya que su uso se puede extender en formatos condicionales, validaciones y se pueden usar en combinación con las funciones de información para controlar muchos aspectos del Excel.
+
+**OPERADORES DE COMPARACIÓN:**
+
+![img](https://lh4.googleusercontent.com/--vtNLARxrh0/TfAWe8Po-eI/AAAAAAAAAQM/2rK7gOBhOdo/s1600/Operadores%2Bde%2BComparaci%25C3%25B3n.jpg)
+
+**TABLAS DE VERDAD:**
+
+![img](https://lh4.googleusercontent.com/-2bJD515aEQA/TfKSzUJAi3I/AAAAAAAAATg/AbBNeC921XQ/s1600/Tablas%2Bde%2BVerdad.jpg)
